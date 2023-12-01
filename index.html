@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skytype_typingtest</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+</head>
+<body>
+    <header style="max-width: 1000px;">
+        <nav>
+            <ul>
+                <li><a class="logo golden" href="index.html">SKYTYPE</a></li>
+                <li class="top_score main-color golden"><i class="fas fa-award"></i> <span class="golden"></span></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="order">
+            <div>
+                <span><a class="punct">punctuation</a></span>
+                /
+                <span><a class="numb">number</a></span>
+                /
+                <span class="timeset">
+                    <i class="fas fa-clock"></i>
+                    <a class="l1 lv">15</a><a class="l2 lv">30</a><a class="l3 lv">60</a><a class="l4 lv">120</a>
+                </span>
+            </div>
+        </div>
+        <div class="testing">
+            <div class="text_center">
+                <span class="active_color time_tag"></span>
+            </div>
+            <input type="text" id="inputField" autocomplete="off">
+            <p class="main-color page"></p>
+            <div class="tostart"><i class="fas fa-arrow-pointer"></i> Click here to start typing!</div>
+            <div class="text_center">
+                <span class="main-color fas fa-arrow-rotate-right"></span>
+            </div>
+        </div>
+        <div class="resault">
+            <span>WPM : <span class="wpm"></span></span> / <span>Mistake : <span class="mistake"></span></span> / <span class="restart"> <i class="fas fa-arrow-rotate-right"></i> restart!</span>
+        </div>
+        <div class="main-color inspire"><span>Design Inspire From <a href="https://monkeytype.com" class="main-color">monkeytype.com</a></span></div>
+    </main>
+
+    <script src="./JS/app.js"></script>
+</body>
+</html>
